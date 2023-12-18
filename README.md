@@ -44,8 +44,14 @@
   
 <img src="./images/../public/images/mainPage.gif">
 
+### 2) 브랜드소개
 
-### 2) 상품 리스트
+* 리뉴얼 컨텐츠
+  
+<img src="./images/../public/images/aboutPage.gif">
+
+
+### 3) 상품 리스트
 
 * 상품 정렬
 * 상품 정렬 초기화
@@ -55,7 +61,7 @@
 <img src="./images/../public/images/productPage.gif">
 
 
-### 3) 장바구니
+### 4) 장바구니
 
 * 상품 증감 수량과 수량에 따른 각각의 가격 계산
 * 체크박스 각각 클릭 시 전체 체크박스는 해제 (예정)
@@ -67,7 +73,7 @@
 <img src="./images/../public/images/cartPage.gif">
 
 
-### 4) Notice 게시판 (공지사항)
+### 5) Notice 게시판 (공지사항)
 
 * 페이지네이션
 * 게시물 상세내용 확인가능, 다시 목록으로 이동
@@ -75,7 +81,7 @@
 <img src="./images/../public/images/noticePage.gif">
 
 
-### 5) Customer 게시판 (고객문의)
+### 6) Customer 게시판 (고객문의)
 
 * 글 작성 기능
 * 글 수정 기능
@@ -87,15 +93,15 @@
 <img src="./images/../public/images/customerPage.gif">
 
 
-### 6) 회원가입 / 로컬스토리지 저장
+### 7) 회원가입 / 로컬스토리지 저장
 
 * 회원가입 시 로그인 가능
 
 <img src="./images/../public/images/loginPage.gif">
 
 
-### 7) 로그인 / 로그아웃
+### 8) 로그인 / 로그아웃
 
-* 로그인 시 헤더 로그아웃으로 변경 / 로그인 확인 가능 페이지
+* 로그인 시 헤더 로그아웃으로 변경 / 로그인 확인 페이지
   
 <img src="./images/../public/images/loginPage.gif">
