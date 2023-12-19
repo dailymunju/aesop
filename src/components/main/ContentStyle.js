@@ -53,9 +53,9 @@ export const ReadCon = styled.section`
                     &.imgBox {
                          width:100%; height:300px; background-size:auto 200%; background-repeat:no-repeat; background-position:0; 
                     }
-                    &.img1  {background-image:url("../images/read01.jpg");}
-                    &.img2  {background-image:url("../images/read02.jpg");}
-                    &.img3  {background-image:url("../images/read03.jpg");}
+                    &.img1  {background-image:url("./images/read01.jpg");}
+                    &.img2  {background-image:url("./images/read02.jpg");}
+                    &.img3  {background-image:url("./images/read03.jpg");}
                 }
                 &:last-child{margin-right: 0;}
                 h4 { margin-top:25px; font-size:20px; font-weight: 600; }

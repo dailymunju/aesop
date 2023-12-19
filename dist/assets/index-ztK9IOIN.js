@@ -339,9 +339,9 @@ width:100%; height: auto; background-color: #fff;
                     &.imgBox {
                          width:100%; height:300px; background-size:auto 200%; background-repeat:no-repeat; background-position:0; 
                     }
-                    &.img1  {background-image:url("../images/read01.jpg");}
-                    &.img2  {background-image:url("../images/read02.jpg");}
-                    &.img3  {background-image:url("../images/read03.jpg");}
+                    &.img1  {background-image:url("./images/read01.jpg");}
+                    &.img2  {background-image:url("./images/read02.jpg");}
+                    &.img3  {background-image:url("./images/read03.jpg");}
                 }
                 &:last-child{margin-right: 0;}
                 h4 { margin-top:25px; font-size:20px; font-weight: 600; }
@@ -667,7 +667,7 @@ height: 700px;
     button {  width: 200px; height: 50px; background: #000; color:#fff; cursor: pointer; border:none ; }
 `,nE=({item:e})=>{const{id:t,title:n,date:r}=e;return d.jsxs("tr",{children:[d.jsx("td",{children:t}),d.jsx("td",{children:d.jsxs(it,{to:`/notice/${t}`,children:[" ",n," "]})}),d.jsx("td",{children:r})]})},rE=()=>{const{noticeData:e}=ue(a=>a.notice),{currPage:t,postsPerPage:n}=ue(a=>a.pagination),r=ze(),i=t*n,o=i-n,s=e.slice(o,i);return k.useEffect(()=>{r($u(e))},[]),d.jsx(eE,{children:d.jsxs("table",{className:"noticeTable",children:[d.jsx("caption",{children:"게시판"}),d.jsxs("colgroup",{children:[d.jsx("col",{className:"num"}),d.jsx("col",{className:"title"}),d.jsx("col",{className:"date"})]}),d.jsx("thead",{children:d.jsxs("tr",{children:[d.jsx("th",{children:"번호"}),d.jsx("th",{children:"내용"}),d.jsx("th",{children:"작성일"})]})}),d.jsx("tbody",{children:s.map(a=>d.jsx(nE,{item:a},a.id))})]})})},iE=U.div` 
     .inner { padding:100px 0 }
-    h2 { font-size:30px; font-weight:700; margin-bottom:50px }
+    h2 { font-size:40px; font-weight:700; margin-bottom:50px }
 `,oE=()=>d.jsx(iE,{children:d.jsxs("div",{className:"inner",children:[d.jsx("h2",{children:"게시판"}),d.jsx(rE,{}),d.jsx(Fu,{})]})}),sE=()=>{const{noticeID:e}=sh(),{noticeData:t}=ue(l=>l.notice),n=t.find(l=>l.id===Number(e)),{id:r,title:i,content:o,date:s}=n,a=pt();return d.jsx(tE,{children:d.jsxs("div",{className:"inner",children:[d.jsx("h2",{children:" 공지사항 "}),d.jsxs("div",{className:"con",children:[d.jsxs("h3",{children:[" ",r,"번 ",i]}),d.jsxs("p",{className:"txt",children:[" ",o," "]}),d.jsxs("p",{className:"date",children:[" ",s," "]})]}),d.jsx("button",{onClick:()=>a("/notice"),children:"목록으로"})]})})},lE=U.div` 
 height: 700px;
     .customerTable { width: 100%; 
