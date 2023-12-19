@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const CustomerLIstWrap = styled.div` 
-height: 507px;
+height: 700px;
     .customerTable { width: 100%; 
         caption{ position:absolute; text-indent:-9999px; left:0; top:0; overflow:hidden; }
         .num { width: 10%; }
