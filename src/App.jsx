@@ -1,4 +1,5 @@
-import {  BrowserRouter ,  Routes,  Route,  Link  } from "react-router-dom";
+import {  HashRouter  as Router ,  Routes,  Route,  Link  } from "react-router-dom";
+
 import GlobalStyle from "./styled/GlobalStyle"
 import Layout from "./components/Layout";
 import NotFiles from "./pages/notfile/NotFiles";
@@ -19,7 +20,7 @@ import CustomerEdit from "./components/customer/CustomerEdit";
 const App = () => {
   return (
     <>
-    <BrowserRouter>
+    <Router>
         <GlobalStyle /> 
         <Routes>
           <Route path="/" element={<Layout/> }>
@@ -46,7 +47,7 @@ const App = () => {
 
           <Route path="*" element={<NotFiles/>}/>
         </Routes>
-     </BrowserRouter>
+     </Router>
     </>
   );
 };

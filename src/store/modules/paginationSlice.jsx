@@ -5,7 +5,7 @@ const initialState = {
     pageData : [], //데이터 들어갈곳
     currPage: 1, //현재페이지
     totalPage: 1, //총 갯수 바뀔거
-    postsPerPage: 10,  //한페이지당 10개씩 나오는 갯수 고정일경우
+    postsPerPage: 12,  //한페이지당 10개씩 나오는 갯수 고정일경우
 }
 export const paginationSlice = createSlice({ 
   name: 'pagination',
